@@ -1,0 +1,8 @@
+1. What is deployment pipeline
+    Moving your code from dev-->qa-->stage-->prod is called deployment pipeline through automatic promoting the builds with all the testing scenarios in place
+2. What is delivery pipeline?
+   a. Delivery pipeline includes all the stages from coding to deployment to any enevironment.
+   b. It may be automatic or manual
+   c. The stages includes 
+      Code(Commits)-->Build-->Test-->Deployment
+   d. Tool sets used for each stage depends on the organization   
