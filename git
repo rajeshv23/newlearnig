@@ -1,3 +1,9 @@
 1. How to automaticlly select git branches while configuring jenkins job(both freestyle and pipeline job).
     Install git parameter plugin
 2. Difference between merge and rebase
+3. How to tag and tags are used
+   Tags are created to stop further commits.
+   Tag are created for the intermediate releases to freeze the code
+   Before creating tag, make sure from which branch u are creating tag
+   Then checkout that branch(git checkout master) if want to create a tag from master
+   then create tag(git tag 10.0.1) if u want to create tag with 10.0.1
