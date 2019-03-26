@@ -7,3 +7,4 @@
    Before creating tag, make sure from which branch u are creating tag
    Then checkout that branch(git checkout master) if want to create a tag from master
    then create tag(git tag 10.0.1) if u want to create tag with 10.0.1
+4. What is swimlane workflow process
