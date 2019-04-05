@@ -1,0 +1,12 @@
+1. Through jenkins find the list of branches are there in the remote repository and create a branch/tag of one branch/tag is available else send one message branch/tag exists through jenkinsfile
+2. How to integrate LISA with Jenkins
+3. Create branch/tag based,from the yaml file throgh jenkinsfile
+4. Remove all the docker images which are not in use
+5. List down all the github branches for selecting the branch on the fly or run time
+6. How to configure global variables in jenkins
+7. How to update the jenkins build status(pass/fail) in gitlab
+8. How to reach yaml file through groovy/jenkinsfile
+9. How to pass parameter directly in jenkinsfile without figuring in jenkins UI
+10. How to configure ansible playbook with updating /etc/ansible/hosts file
+11. How to use  ansible deploy based on the environment through jenkinsfile
+12. Execute certain steps/stages based on the branch selection in jenkins through parameter
