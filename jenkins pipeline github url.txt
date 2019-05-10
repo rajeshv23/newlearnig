@@ -1,0 +1,4 @@
+https://github.com/TechPrimers/jenkins-example
+https://github.com/TechPrimers/jenkins-example.git
+https://github.com/amritsql/maven_java_tutorial.git
+https://github.com/amritsql/maven_java_tutorial/blob/master/Jenkinsfile.git
