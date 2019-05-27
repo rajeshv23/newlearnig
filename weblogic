@@ -1,0 +1,3 @@
+Manual deployment commands
+=====================
+java weblogic.Deployer -adminurl http://127.0.0.1:7001 -user weblogic -password weblogic@1 -name java-tomcat-maven-example -targets AdminServer -nostage -deploy /home/chaitanya/Downloads/dockerdemo-master/java-tomcat-maven-example.war
