@@ -1,3 +1,9 @@
 Manual deployment commands
 =====================
+Required Environment for weblogic.Deployer
+To set up your environment to use the weblogic.Deployer utility:
+Add the WebLogic Server classes to the CLASSPATH environment variable, and ensure that the correct JDK binaries are available in your PATH. 
+You can use the setWLSEnv.sh or setWLSEnv.cmd script, located in the server/bin subdirectory of the WebLogic Server installation directory, to set the environment.
+after setting of the path
+run the below command
 java weblogic.Deployer -adminurl http://127.0.0.1:7001 -user weblogic -password weblogic@1 -name java-tomcat-maven-example -targets AdminServer -nostage -deploy /home/chaitanya/Downloads/dockerdemo-master/java-tomcat-maven-example.war
