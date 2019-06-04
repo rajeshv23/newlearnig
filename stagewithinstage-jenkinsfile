@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    parameters { choice(name: 'CHOICES', choices: ['L1', 'L2', 'L3'], description: '') }
+     stages {
+        stage ('Main Stage') {
+            steps {
+                script{
+                 def deployEnvValue ="${params.CHOICES}"
+                 echo "Choice: ${params.CHOICES}"
+                   echo "Choice1: ${deployEnvValue}"
+                 
+                 if ("${params.CHOICES}"=="L1") {
+                        stage ('L1') {
+                             echo "Stage L1"
+                        }
+                    }
+                if ("${params.CHOICES}"=="L2") {
+                        stage ('L2') {
+                             echo "Stage L2"
+                        }
+                }
+            
+                }
+        }
+    }
+}
+}
