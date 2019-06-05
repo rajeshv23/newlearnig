@@ -46,4 +46,25 @@ URL: https://github.com/csenapati12/june-batch.git
  * [pruned] origin/MSR-859
     
     
+ 9. How to restore the deleted branch
+    git reflog
+    c9624b6 HEAD@{0}: checkout: moving from master to m1
+c9624b6 HEAD@{1}: clone: from https://github.com/csenapati12/june-batch.git
+
+
+C:\learning\training\5th-June]\june-batch>git checkout -b m22 c9624b6
+Switched to a new branch 'm22'
+
+C:\learning\training\5th-June]\june-batch>git push origin m22
+Fatal: HttpRequestException encountered.
+Username for 'https://github.com': csenapati12
+Password for 'https://csenapati12@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'm22' on GitHub by visiting:
+remote:      https://github.com/csenapati12/june-batch/pull/new/m22
+remote:
+To https://github.com/csenapati12/june-batch.git
+ * [new branch]      m22 -> m22
+    
     
