@@ -19,3 +19,31 @@
 5. What is git stashing
 6. How to get the list of remote branches in git
 7. How to check who has checkout the code for a specific repo
+8. Command to check branches deleted in remote repo and remove the deleted branches
+    git remote show originC:\learning\training\5th-June]\june-batch>git remote show origin
+* remote origin
+  Fetch URL: https://github.com/csenapati12/june-batch.git
+  Push  URL: https://github.com/csenapati12/june-batch.git
+  HEAD branch: master
+  Remote branches:
+    MSR-858                     tracked
+    develop                     tracked
+    master                      tracked
+    refs/remotes/origin/MSR-859 stale (use 'git remote prune' to remove)
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+    
+   C:\learning\training\5th-June]\june-batch>git remote prune origin --dry-run
+Pruning origin
+URL: https://github.com/csenapati12/june-batch.git
+ * [would prune] origin/MSR-859
+ 
+ C:\learning\training\5th-June]\june-batch>git remote prune origin
+Pruning origin
+URL: https://github.com/csenapati12/june-batch.git
+ * [pruned] origin/MSR-859
+    
+    
+    
