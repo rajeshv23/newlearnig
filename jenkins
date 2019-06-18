@@ -1,3 +1,4 @@
 1. Build pipeline
 2. Jenkins Shared library, DRY(Don’t Repeat Yourself), as organization level the number of pipelines keep on increasing we should not repeate 
     the code or pipeline again and again.To avoid such duplication code or steps its required have the jenkins shared library.
+3. parameterized build variables should be CAPITAL letter
