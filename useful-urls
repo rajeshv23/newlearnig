@@ -4,3 +4,4 @@ trigger jenkins job when pull request created
 ==============================================
 https://devopscube.com/jenkins-build-trigger-github-pull-request/
 https://mohamicorp.atlassian.net/wiki/spaces/DOC/pages/209059847/Triggering+Jenkins+on+new+Pull+Requests
+https://stackoverflow.com/questions/52107252/how-to-take-latest-changes-from-dev-branch-to-my-current-branch(
