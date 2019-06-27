@@ -67,6 +67,7 @@ remote:
 To https://github.com/csenapati12/june-batch.git
  * [new branch]      m22 -> m22
     
-10.Branch level webhook
-11. command to check branch created from which branch
+10. Branch level webhook
+11. Command to check branch created from which branch
+12. Last deployed commit of the previous changes
     
