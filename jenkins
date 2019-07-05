@@ -3,3 +3,6 @@
     the code or pipeline again and again.To avoid such duplication code or steps its required have the jenkins shared library.
 3. parameterized build variables should be CAPITAL letter
 4. How to configure jenkins dashboard
+5. Jenkins docker slave
+6. How to do parallel build in jenkins(Use parallel keyword in pipeline)
+7. Jenkins blue oceann
