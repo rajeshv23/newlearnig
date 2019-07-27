@@ -6,3 +6,15 @@
 5. Jenkins docker slave
 6. How to do parallel build in jenkins(Use parallel keyword in pipeline)
 7. Jenkins blue oceann
+8. what is jenkins installation path in ubuntu and command to restart jenkins service
+      path: /var/lib/jenkins
+      command:service jenkins restart
+              service jenkins stop
+              service jenkins start
+     With latest distribution of linux
+              $ sudo systemctl start jenkins.service
+              $ sudo systemctl stop jenkins.service
+              $ sudo systemctl restart jenkins.service
+ 9. How to upgrade jenkins
+    Download the latest version of the jenkins.war file and copy the war file to the jenkins installation directory(/var/lib/jenkins in case linux and ubuntu)
+    Then restart the jenkins service
