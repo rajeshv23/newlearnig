@@ -18,3 +18,22 @@
  9. How to upgrade jenkins
     Download the latest version of the jenkins.war file and copy the war file to the jenkins installation directory(/var/lib/jenkins in case linux and ubuntu)
     Then restart the jenkins service
+    
+  10. Give an example when build will be unstable
+       
+       command ran from jenkins as: sudo  service httpd status.
+       But for the user root/sudo access is not there.
+       Hence the build will be UNSTABLE
+       
+       Started by user Chaitanya.Senapati
+[EnvInject] - Loading node environment variables.
+Building remotely on rf-jenkins2 (slave1) in workspace /var/lib/jenkins/workspace/freestyle-remote-host
+SSH: Connecting from host [rf-jenkins2]
+SSH: Connecting with configuration [vm-app1] ...
+SSH: EXEC: STDOUT/STDERR from command [sudo service httpd status] ...
+sudo: sorry, you must have a tty to run sudo
+SSH: EXEC: completed after 200 ms
+SSH: Disconnecting configuration [vm-app1] ...
+ERROR: Exception when publishing, exception message [Exec exit status not zero. Status [1]]
+Finished: UNSTABLE
+       
