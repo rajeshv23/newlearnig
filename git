@@ -70,4 +70,5 @@ To https://github.com/csenapati12/june-batch.git
 10. Branch level webhook
 11. Command to check branch created from which branch
 12. Last deployed commit of the previous changes
-    
+13. What is git squashing and why its required, procedure/commands for this
+14. What is git stashing and example
