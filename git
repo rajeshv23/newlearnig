@@ -72,3 +72,6 @@ To https://github.com/csenapati12/june-batch.git
 12. Last deployed commit of the previous changes
 13. What is git squashing and why its required, procedure/commands for this
 14. What is git stashing and example
+15. How to checkout the spectific commit id 
+    git clone git clone https://github.com/csenapati12/shared-lib-groovy.git
+    git clone sha code(4e4ba52e850eaeb255746359e99189104c8ccf97)
