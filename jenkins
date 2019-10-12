@@ -36,4 +36,8 @@ SSH: EXEC: completed after 200 ms
 SSH: Disconnecting configuration [vm-app1] ...
 ERROR: Exception when publishing, exception message [Exec exit status not zero. Status [1]]
 Finished: UNSTABLE
+11. How archiveArtifacts worked?
+    Its will save the artifacts outside the workspace($JENKINS_HOME/jobs/<job>/builds/<build>/archive) and even though after deleting the workspace(cleanWs()) it will be there with the below path
+12. How copyArtifact works?
+13. Difference between deleteDir() and cleanWs()?
        
