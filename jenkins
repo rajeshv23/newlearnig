@@ -39,6 +39,7 @@ Finished: UNSTABLE
 11. How archiveArtifacts worked?
     Its will save the artifacts outside the workspace(
     $JENKINS_HOME/jobs/<job>/builds/<build no>/archive(ex:/var/lib/jenkins/jobs/<my-job-name>-build/builds/8/archive/target),
+    $JENKINS_HOME/jobs//jobs//branches//builds/$BUILD_NUMBER/archive/
     /var/lib/jenkins/jobs/<my-job-name>-build/lastStable/archive/target
     /var/lib/jenkins/jobs/<my-job-name>-build/lastSsuccessful/archive/target) and even though after deleting the workspace(cleanWs()) it will be there with the below path
 12. How copyArtifact works?
